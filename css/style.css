@@ -1,0 +1,62 @@
+p {
+    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.foto-perfil {
+    height: 100%;
+    max-width: auto;
+    border-radius: 50%;
+}
+
+.icones {
+    padding-left: 5px;
+}
+
+
+.navbar {
+    position: fixed;
+}
+
+.subtitulo {
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: .1em;
+    margin-bottom: 60px;
+}
+
+.subtitulo:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 8px auto;
+}
+.paragrafoBrancos {
+    color: #fff !important;
+}
+
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    color: black !important;
+}
+
+
+.itemMenu {
+    color: #000;
+}
+
+.lead, .navbar-nav  {
+    text-transform: uppercase;
+}
